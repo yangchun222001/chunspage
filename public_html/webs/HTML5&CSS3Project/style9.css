@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px 0px 80px;
+}
+.header h1{
+    font-size: 20px;
+}
+
+.header ul li a {
+    color: black;
+}
+.jumbotron {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.jumbotron h2{
+    font-size: 50px;
+
+}
+.jumbotron h2 span {
+    color: #ffc200;
+}
+
+.banner {
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h2, .banner p {
+    color: white;
+}
+
+.cards {
+    background-color: #FFC200;
+    padding: 80px 0;
+}
+
+.cards h2{
+    margin:20px 0 60px 0;
+    text-align: center;
+}
+.cards img {
+    margin-bottom: 25px;
+    border: none;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer img {
+    width: 24px;
+}
+
+.footer li{
+    display: inline;
+}
+@media (max-width: 992px) {
+    .col-md-4 {
+        margin: 0 auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .cards img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    .header h1 {
+        text-align: center;
+    }
+
+    .nav li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cards img {
+        width: 100%;
+    }
+}

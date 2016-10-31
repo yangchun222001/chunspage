@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="js/vendor/angular.min.js"></script>
+</head>
+<body ng-app="OutboxApp">
+<div class="header">
+    <div class="container">
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/4/outbox-1/img/logo.svg" width="140" height="150">
+    </div>
+</div>
+
+<div class="main" ng-controller="HomeController">
+    <div class="container">
+
+        <div ng-view></div>
+
+    </div>
+</div>
+
+<!-- Modules -->
+<script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+<script src="js/app.js"></script>
+
+</html>

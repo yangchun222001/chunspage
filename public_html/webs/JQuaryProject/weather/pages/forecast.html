@@ -1,0 +1,22 @@
+<a href="#/">Back to Search</a>
+
+<h2>Forecast for {{city}}</h2>
+<hr>
+
+<ul class="nav nav-pills">
+    <li><h4>Days: &nbsp&nbsp</h4></li>
+    <li><a href="#/forecast/2" class="btn btn-default">2</a></li>
+    <li><a href="#/forecast/4" class="btn btn-default">4</a></li>
+    <li><a href="#/forecast/6" class="btn btn-default">6</a></li>
+</ul>
+
+<hr>
+<div class="row" ng-repeat="w in weatherResult.list">
+    <div class="col-md-12">
+        <weather-detail weather="w" convert-date="convertDate(date)" convert-temp="convertTemp(degK)"></weather-detail>
+    </div>
+</div>
+
+
+
+

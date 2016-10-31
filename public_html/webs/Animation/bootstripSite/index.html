@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Travel</title>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header">
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <!--nav-default: has a different color background that stretches across the screen; link will have a special style too   navbar-inverse-->
+            <!--navbar-static-top: this bar should appear at the top  navbar-static-bottom  .navbar-fixed-top  .navbar-fixed-bottom -->
+            <!--nav: when you want a navigation  navbar: usually only one in your page-->
+            <div class="navbar-header">
+                <!-- navbar-header : show in one line-->
+                <a href="/" class="navbar-brand">My Travel</a> <!-- navbar-brand: go back to our main page, the brand-->
+
+                <!-- put it right up the collapse -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <!-- data-* the bootstrap javascript attributes -->
+                    <!-- .pull-left .pull-right-->
+                    <span class="sr-only">Toggle navigation</span>  <!-- sr-only: screen reader only, the text can't be shown to most users-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <!-- nav-pills: have border  nav-tabs: information below related to the tab  navbar-nav: inline-->
+                <!-- navbar-collapse: when small window collapse-->
+                <li><a href="#">About me</a></li>  <!--nav: means we want to use a nav here -->  <!-- navbar-right: put the nav all away to the right-->
+                <li><a href="#">Contact</a></li>
+                <li>
+                    <a href="#" data-toggle="dropdown">More<span class="caret"></span></a>
+                    <!-- caret: dropdown icon-->
+                    <!-- data-toggle: dropdown it will add class to its parent element, here is li-->
+                    <ul class="dropdown-menu">  <!--let it know that this is dropdown menu it won't be shown on page load-->
+                        <li><a href="#">Asia</a></li>
+                        <li role="seperater" class="divider"></li>
+                        <li><a href="#">Middle East</a></li>
+                        <li><a href="#">Africa</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="container">   <!--container-fluit-->
+        <div class="row well well-lg">   <!-- well class:  better looking -->  <!-- well-lg: add more padding to the well-->  <!-- .well-lg .well-sm-->
+            <div class="col-md-6">
+                <h1>Cycling from Chengdu to Lhasa</h1>
+                <p class="lead">In July 2011 I cycled from Chengdu, Sichuan to Lhasa by the national high way G318. A month later I arrived in Lhasa.
+                    During this time, I climbed 2 mountains over 5000 meters and 10 mountains with altitude of over 4000 meters.</p>
+                <!-- lead: make paragraph a little stand out -->
+                <button type="button" class="btn btn-lg btn-primary">Know More</button>
+                <!-- btn: some padding and gray background color -->
+                <!-- btn-lg: more padding and larger font-->  <!-- .btn-xs .btn-sm .btn-lg -->
+                <!-- btn-default: the color option wight-->
+                <!-- btn-primary: want everyone come to my site click on it-->
+                <!-- btn-default: wight  -primary: blue  -success: green  -info: light blue  -warning: yellow  -danger: red-->
+                <button typt="button" class="btn btn-lg btn-default">Others</button>
+            </div>
+            <div class="col-md-6 hidden-sm hidden-xs">   <!--hidden-md    hidden-lg -->  <!-- visible-xs visible-md visible-lg visible-sm -->
+                <img src="cycle2.png" style="width: 100%">
+            </div>
+        </div>
+
+        <div class="row text-center feature">    <!-- text-center set all of things center -->  <!-- .text-justify  .text-right  .text-center  .text-nowrap  .text-left -->
+            <div class="col-md-4 col-sm-4 col-xs-10 col-xs-offset-1 col-sm-offset-0">   <!--// xs: opx sm: 768px  md: 992px  lg: 1200px+-->
+                <i class="glyphicon glyphicon-briefcase"></i>   <!-- add icon image-->
+                <h1>Travel in Asia</h1>
+                <p>Nepal, India, Thailand, Malaysia, Singapore, etc. are all amazing countries. Those countries inpressed me a lot.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6 ">
+                <i class="glyphicon glyphicon-random"></i>
+                <h1>Travel in Africa</h1>
+                <p>I went to Egypt from Israel in 2012. I have stayed here for 1 month. The buildings and temples are incredible.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <i class="glyphicon glyphicon-send"></i>
+                <h1>Travel in Middle East</h1>
+                <p>Middle East is where I always want to go. I went to Iran, Syria, Israel, Jordon, Lebanon in 2011.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>More</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#"> About me</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Link</h4>
+                <ul class="list-unstyled">  remove the space and . ahead of list--> <!-- .list-inline show horizontally rather than vertically
+                    <li><a>Facebook</a></li>
+                    <li><a>Twitter</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Countries</h4>
+                <ul class="list-unstyled">
+                    <li>China</li>
+                    <li>America</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+</html>

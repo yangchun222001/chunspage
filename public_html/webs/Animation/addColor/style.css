@@ -1,0 +1,56 @@
+.color{
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+}
+
+.col-md-4, .col-md-8 {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    transform: scale(1.5);
+    top: 150px;
+    transition: transform 0.1s;
+}
+
+.color1{
+    background-color: #e52364;
+}
+
+.color2{
+    background-color: #0074ff;
+}
+
+.color3{
+    background-color: #00f28f;
+}
+
+.color4{
+    background-color: #675c47;
+}
+
+.color5{
+    background-color: #CC0000;
+}
+
+.color6{
+    background-color: #ffbd1a;
+}
+
+.color7{
+    background-color: black;
+}
+
+.color8{
+    background-color: aquamarine;
+}
+
+.color9{
+    background-color: #31363d;
+}
+
+.color10{
+    background-color: chartreuse;
+}

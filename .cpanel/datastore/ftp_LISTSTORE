@@ -1,0 +1,1 @@
+{"mode":"simple","timeout":0,"data":[{"user":"yangchun","homedir":"/home/yangchun","type":"main"},{"type":"logaccess","homedir":"/usr/local/apache/domlogs/yangchun","user":"yangchun_logs"}],"action":"fetch","exit_code":0,"status":1,"statusmsg":"Ran adminbin Cpanel/ftp/LISTSTORE","version":"2.4","error":0}

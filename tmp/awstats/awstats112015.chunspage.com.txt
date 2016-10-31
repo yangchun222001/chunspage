@@ -1,0 +1,453 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201511 will be lost/reset.
+# Last config file used to build this data file was /home/yangchun/tmp/awstats/awstats.chunspage.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2687                
+POS_VISITOR 9758                
+POS_DAY 11646               
+POS_DOMAIN 3432                
+POS_LOGIN 3764                
+POS_ROBOT 3919                
+POS_WORMS 4262                
+POS_EMAILSENDER 4393                
+POS_EMAILRECEIVER 4536                
+POS_SESSION 12005               
+POS_SIDER 12201               
+POS_FILETYPES 4671                
+POS_DOWNLOADS 4846                
+POS_OS 4894                
+POS_BROWSER 5129                
+POS_SCREENSIZE 5649                
+POS_UNKNOWNREFERER 5723                
+POS_UNKNOWNREFERERBROWSER 6059                
+POS_ORIGIN 6233                
+POS_SEREFERRALS 6370                
+POS_PAGEREFS 6523                
+POS_SEARCHWORDS 6737                
+POS_KEYWORDS 6889                
+POS_MISC 2351                
+POS_ERRORS 6948                
+POS_CLUSTER 3620                
+POS_SIDER_404 7049                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151201003442 41 8516 8854708562854
+FirstTime 20151117144749
+LastTime 20151130084659
+LastUpdate 20151201051715 41 0 40 0 0
+TotalVisits 71                  
+TotalUnique 46                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 47                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 22 894509 19 28 43763
+1 3 3 5175 4 5 6282
+2 3 3 4837 30 36 185162
+3 1 1 1725 21 30 320614
+4 2 2 3450 15 26 37744
+5 2 2 3205 22 26 29776
+6 2 2 3357 30 36 22019
+7 7 36 1040691 27 28 17450
+8 15 98 8264822 21 26 5584
+9 7 33 863205 24 36 180752
+10 14 131 2484473 18 24 68764
+11 5 7 12226 27 33 66383
+12 10 37 1004511 27 41 82650
+13 12 68 5005619 28 35 13939
+14 9 22 3981312 14 21 120313
+15 2 4 3416 13 18 14090
+16 5 6 12202 40 45 17451
+17 29 81 8682 37 183 44287
+18 85 313 6567325 56 71 18504
+19 22 170 1006560 49 111 25915
+20 6 6 9674 8 12 71440
+21 3 5 9021 16 27 394728
+22 2 2 3264 15 16 8578
+23 5 5 8194 26 28 14303
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 234 996 29312449
+zz 7 7 11507
+cn 5 27 1024285
+jp 2 2 3450
+ru 1 21 840576
+ca 1 3 5816
+fr 1 1 0
+de 1 1 1740
+at 1 1 1632
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 201 477159 20151130234935 0
+no_user_agent 58 8439 20151126174937 0
+googlebot\-image 25 1220961 20151130210344 0
+crawl 3 4896 20151128162557 0
+curl 1 1632 20151120061643 0
+robot 1 1632 20151126210600 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 136 51802 0 0
+png 514 27731721 0 0
+html 253 327540 0 0
+jpg 9 1981796 0 0
+js 143 1106348 0 0
+svg 4 2248 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+winlong 32 32
+winxp 9 9
+macosx6 1 1
+winnt 2 0
+macosx5 1 1
+linux 140 46
+win7 835 148
+macosx 2 2
+winunknown 1 1
+win8 1 1
+Unknown 10 9
+win8.1 1 1
+ios_ipad 23 1
+macosx7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+msie6.0 3 3
+firefox28.0 1 1
+chrome45.0.2454.99 1 1
+firefox15.0 21 1
+firefox42.0 98 34
+chrome34.0.1847.137 1 1
+firefox21.0 1 1
+chrome39.0.2171.95 5 5
+chrome46.0.2490.71 795 135
+msie5.5 2 0
+firefox24.0 1 1
+msie8.0 39 35
+firefox33.0 1 1
+mozilla 32 6
+firefox25.0 1 1
+netscape5.0 1 1
+firefox14.0.1 3 3
+msie7.0 2 2
+chrome37.0.2062.120 1 1
+opera8.50 1 1
+safari1.2.4 1 1
+firefox3.6.3 1 1
+msie9.0 1 1
+chrome11.0.696.71 3 3
+Unknown 2 2
+safari 37 7
+netscape 3 3
+firefox3.6.13 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla 20151123200314
+Mozilla/5.0 20151117144827
+Ruby 20151118012131
+Mozilla/5.0_(compatible;_Embedly/0.2;__http://support.embed.ly/) 20151122132711
+Mozilla/4.0_(compatible;_http://search.thunderstone.com/texis/websearch/about.html) 20151125162812
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Ruby 20151118012131
+python-requests/2.5.1_CPython/2.7.6_Windows/2008ServerR2 20151118235205
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 152 156
+From1 2 2
+From2 1 1
+From3 2 2
+From4 96 898
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://pizza-tycoon.com 1 1
+https://mawords.com/chunspage.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 3 4896
+404 635 90876
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 51
+/webs/AngularJSProject/BoltNetwork2/index.html 8 http://www.chunspage.com/
+/images/calendar.PNG 4 http://www.chunspage.com/
+/webs/AngularJSProject/outbox2/index.html 1 http://www.chunspage.com/
+/robots.txt 39 -
+/wordpress/ 53 -
+/images/outbox.PNG 4 http://www.chunspage.com/
+/admin.php 2 -
+/images/5.png 26 http://www.chunspage.com/
+/webs/AngularJS%20Project/BoltNetwork2/js/vendor/angular.min.js.map 1 -
+/domainsigma_removal_e189654cac7737823722a875a17891eb67fe02c5.html 1 -
+/webs/AngularJSProject/reader/index.html 1 http://www.chunspage.com/
+/images/2.png 26 http://www.chunspage.com/
+/webs/calendar/index.html 1 http://www.chunspage.com/
+/blog/ 52 -
+/1.png 13 http://www.chunspage.com/
+/images/fillcolor.png 2 http://www.chunspage.com/
+/webs/AngularJSProject/reader/%7B%7Bbook.cover%7D%7D 3 http://www.chunspage.com/webs/AngularJSProject/reader/index.html
+/images/gameboard.PNG 4 http://www.chunspage.com/
+/m/ 5 -
+/wp/ 52 -
+/images/ArmandoPerez.PNG 4 http://www.chunspage.com/
+/package.json 110 -
+/images/reader.PNG 4 http://www.chunspage.com/
+/images/6.png 26 http://www.chunspage.com/
+/images/move.PNG 4 http://www.chunspage.com/
+/blogs/ 52 -
+/aboutMe/aboutme.html 3 http://www.chunspage.com/
+/webs/AngularJS%20Project/reader/%7B%7Bbook.cover%7D%7D 9 http://www.chunspage.com/webs/AngularJS%20Project/reader/index.html
+/images/weather.PNG 2 http://www.chunspage.com/
+/images/bonsai.PNG 4 http://www.chunspage.com/
+/images/listEasy.PNG 4 http://www.chunspage.com/
+/images/forecast.PNG 4 http://www.chunspage.com/
+/images/4.png 26 http://www.chunspage.com/
+/http%3A%2F%2Fwww%2Echunspage%2Ecom%2F 1 -
+/administrator/index.php 2 -
+/mobile/ 5 -
+/webs/AngularJSProject/calendar/index.html 2 http://www.chunspage.com/
+/images/milfordSchool.PNG 4 http://www.chunspage.com/
+/images/pocketbook.PNG 4 http://www.chunspage.com/
+/images/fillcolor.PNG 1 http://www.chunspage.com/
+/images/1.png 18 http://www.chunspage.com/
+/images/1_meitu_1.JPEG 2 http://www.chunspage.com/
+/images/madisonSquareMarket.PNG 4 http://www.chunspage.com/
+/wp-login.php 2 -
+/images/feedster.PNG 4 http://www.chunspage.com/
+/webs/AngularJS%20Project/BoltNetwork2/index.html 1 http://www.chunspage.com/
+/images/boltNetwork.PNG 4 http://www.chunspage.com/
+/images/movegear.PNG 4 http://www.chunspage.com/
+/images/1_meitu_1.jpg 19 http://www.chunspage.com/
+/images/1_meitu_1.JPG 1 http://www.chunspage.com/
+/%7B%7Bweb.link%7D%7D 7 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 47
+75.143.44.211 143 773 23018116 20151130084659
+50.117.89.108 15 15 24160 20151124125147
+23.239.196.71 11 11 17750 20151123115707
+172.56.35.144 9 36 141920 20151118182812
+96.39.78.97 8 35 1001306 20151118124755
+130.215.14.192 7 43 4106332 20151122134112
+64.79.100.58 6 6 9674 20151123200314
+38.99.82.191 5 15 25024 20151126151329
+104.238.194.164 4 4 6410 20151129135156
+206.183.1.74 3 4 8997 20151125162812
+158.69.2.151 3 3 4989 20151125222623
+72.5.65.214 2 5 10970 20151119071721
+208.54.36.246 2 6 11219 20151118140550
+166.78.181.113 2 2 3264 20151129191501
+69.58.178.57 2 2 3205 20151123081018
+155.94.171.244 1 1 1740 20151119082624
+110.75.105.157 1 1 1963 20151117144827
+162.244.33.8 1 1 1725 20151119013928
+119.147.146.192 1 1 1632 20151122090002
+82.235.56.238 1 1 0 20151119070212
+54.211.167.249 1 1 1632 20151124170440
+184.168.224.138 1 1 1725 20151118012131
+40.76.27.63 1 1 1725 20151118235205
+38.105.109.12 1 1 1725 20151118044008
+64.69.91.210 1 1 1740 20151119085434
+150.70.173.54 1 1 1725 20151119072809
+208.43.251.178 1 1 1632 20151120023443
+58.60.121.199 1 23 1017095 20151118074554
+158.69.192.220 1 1 1740 20151119093051
+84.177.5.95 1 1 1740 20151119093046
+150.70.173.10 1 1 1725 20151119072810
+104.245.35.160 1 1 1632 20151125064433
+199.30.228.150 1 1 1725 20151118042835
+208.184.112.75 0 2 3772 
+110.75.87.145 1 1 1963 20151117144749
+192.99.150.120 1 3 5816 20151126210403
+158.69.208.123 1 1 1632 20151123075215
+184.72.153.2 1 1 1632 20151128233642
+208.42.251.123 1 1 1632 20151121232837
+54.225.104.196 1 1 1632 20151122132711
+93.159.230.39 1 21 840576 20151118094610
+77.244.254.229 1 1 1632 20151123223444
+52.65.7.212 1 21 892877 20151129004223
+119.147.146.193 1 1 1632 20151130084658
+38.99.82.254 1 1 1573 20151126134712
+208.184.112.74 1 3 5497 20151119070222
+198.101.238.203 1 1 1632 20151129191338
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20151117 125 535 11396229 4
+20151118 26 126 3020741 10
+20151119 34 194 2531762 18
+20151120 9 9 14511 6
+20151121 5 5 8042 3
+20151122 16 75 6206404 7
+20151123 12 12 19348 5
+20151124 3 3 4837 2
+20151125 5 6 12261 3
+20151126 7 19 32413 5
+20151128 1 1 1632 1
+20151129 6 46 1792223 5
+20151130 4 28 6161052 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 1
+5mn-15mn 2
+2mn-5mn 2
+30s-2mn 2
+15mn-30mn 2
+0s-30s 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 44
+/ 144 129610 67 45
+/aboutMe/ 25 39325 3 20
+/webs/Animation/bootstripSite/ 7 13856 0 2
+/webs/JQuaryProject/weather/ 6 2356 0 0
+/webs/JQuaryProject/weather/pages/home.html 6 608 0 0
+/webs/AngularJSProject/calendar/views/day.html 3 680 0 0
+/webs/AngularJSProject/calendar/ 3 792 0 0
+/webs/JQuaryProject/weather/directives/weatherDetail.html 3 550 0 0
+/webs/JQuaryProject/weather/pages/forecast.html 3 1140 0 0
+/webs/JQuaryProject/bonsai/ 3 7974 0 0
+/webs/AngularJS%20Project/reader/views/bookshelf.html 2 286 0 0
+/webs/JQuaryProject/feedster/ 2 4628 0 0
+/webs/AngularJS%20Project/calendar/views/event.html 2 534 0 0
+/webs/Animation/addColor/ 2 56256 0 1
+/webs/AngularJS%20Project/BoltNetwork2/ 2 3734 0 0
+/webs/AngularJSProject/BoltNetwork2/js/directives/programListing.html 2 875 0 0
+/webs/AngularJS%20Project/BoltNetwork2/js/directives/programListing.html 2 1750 0 0
+/webs/AngularJS%20Project/outbox2/views/home.html 2 530 0 0
+/webs/AngularJS%20Project/reader/ 2 714 0 0
+/webs/AngularJS%20Project/outbox2/views/emails.html 2 524 0 0
+/webs/JQuaryProject/forecast/ 2 22736 0 0
+/webs/AngularJS%20Project/calendar/ 2 1584 0 0
+/webs/AngularJS%20Project/outbox2/ 2 1676 0 0
+/webs/JQuaryProject/speakEasy/ 2 4222 0 1
+/webs/AngularJS%20Project/calendar/views/day.html 2 680 0 0
+/webs/JQuaryProject/listEasy/ 1 2019 0 0
+/webs/AngularJSProject/calendar/views/event.html 1 267 0 1
+/webs/AngularJSProject/outbox2/ 1 838 0 0
+/webs/JQuaryProject/moveGear/ 1 3267 1 0
+/webs/AngularJSProject/reader/views/bookshelf.html 1 286 0 0
+/webs/AngularJSProject/reader/views/chapter.html 1 581 0 0
+/webs/AngularJS%20Project/reader/views/book.html 1 376 0 0
+/webs/AngularJSProject/reader/views/book.html 1 376 0 0
+/webs/JQuaryProject/gameBoard/ 1 9330 0 0
+/webs/AngularJS%20Project/top10/js/directives/tvShow.html 1 269 0 0
+/webs/JQuaryProject/threadly/ 1 817 0 0
+/webs/AngularJSProject/outbox2/views/home.html 1 265 0 1
+/webs/JQuaryProject/move/ 1 1894 0 0
+/webs/JQuaryProject/MadisonSquareMarket/ 1 3686 0 0
+/webs/AngularJS%20Project/reader/views/chapter.html 1 581 0 0
+/webs/AngularJS%20Project/top10/ 1 995 0 0
+/webs/AngularJSProject/BoltNetwork2/ 2 1867 0 0
+/webs/AngularJSProject/reader/ 1 714 0 0
+/webs/JQuaryProject/MilfordSchool/ 1 1492 0 0
+END_SIDER

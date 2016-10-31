@@ -1,0 +1,4 @@
+.feature .glyphicon{
+    font-size: 32px;       /* set icon size by font-size*/
+    color: red; /* icons are font*/
+}

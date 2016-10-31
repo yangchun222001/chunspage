@@ -1,0 +1,393 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201609 will be lost/reset.
+# Last config file used to build this data file was /home/yangchun/tmp/awstats/awstats.chunspage.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2672                
+POS_VISITOR 7399                
+POS_DAY 8949                
+POS_DOMAIN 3337                
+POS_LOGIN 3728                
+POS_ROBOT 3883                
+POS_WORMS 4260                
+POS_EMAILSENDER 4391                
+POS_EMAILRECEIVER 4534                
+POS_SESSION 9453                
+POS_SIDER 9610                
+POS_FILETYPES 4669                
+POS_DOWNLOADS 4804                
+POS_OS 4852                
+POS_BROWSER 5023                
+POS_SCREENSIZE 5469                
+POS_UNKNOWNREFERER 5543                
+POS_UNKNOWNREFERERBROWSER 5630                
+POS_ORIGIN 5784                
+POS_SEREFERRALS 5921                
+POS_PAGEREFS 6076                
+POS_SEARCHWORDS 6336                
+POS_KEYWORDS 6488                
+POS_MISC 2336                
+POS_ERRORS 6547                
+POS_CLUSTER 3584                
+POS_SIDER_404 6638                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20161001010812 7 1008 10209828835121
+FirstTime 0
+LastTime 20160930044029
+LastUpdate 20161001053026 7 0 6 0 0
+TotalVisits 41                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 39                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 2299 16 28 26924
+1 4 4 5504 12 25 20126
+2 3 6 38274 31 46 47787
+3 1 1 1632 8 15 11402
+4 2 2 667 12 22 21774
+5 0 0 0 9 13 11437
+6 5 7 4099 12 23 21457
+7 6 12 6294 16 23 18571
+8 0 0 0 4 6 4382
+9 1 1 667 12 22 18704
+10 13 42 6160857 8 10 6748
+11 1 1 667 9 15 56925
+12 2 2 1334 9 19 59422
+13 2 2 1334 4 10 7659
+14 4 8 4196 10 17 11383
+15 3 5 2765 13 22 16914
+16 4 8 5462 16 28 26282
+17 0 0 0 3 3 1986
+18 28 69 136667 9 14 10735
+19 5 5 6171 13 18 17917
+20 1 1 667 14 18 21411
+21 2 2 1334 5 7 5049
+22 0 0 0 9 21 12568
+23 1 1 667 3 6 5959
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+us 64 154 6323642
+fr 8 8 5336
+de 4 4 6469
+nl 2 2 2299
+ru 2 2 667
+jp 2 2 2299
+lu 1 1 667
+co 1 1 667
+gb 1 1 667
+ro 1 1 667
+es 1 1 667
+ua 1 1 1632
+md 1 1 667
+kn 1 1 667
+in 0 1 34544
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 177 95194 20160928094529 0
+bot[\s_+:,\.\;\/\\-] 48 55960 20160930195726 0
+spider 26 109865 20160930105550 0
+robot 3 1680 20160930043147 0
+no_user_agent 3 3931 20160929124810 0
+netcraft 1 0 20160910113401 0
+crawl 1 667 20160904005615 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 90 76799 0 0
+css 36 11469 0 0
+png 21 6183555 0 0
+js 34 109734 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win8.1 3 3
+winxp 3 3
+win7 46 16
+win2003 4 2
+blackberry 1 1
+macosx 4 2
+winnt 36 20
+macosx6 1 1
+linux 83 42
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+wget 1 1
+msie11.0 3 3
+firefox14.0.1 2 2
+firefox28.0 1 1
+firefox5.0 1 1
+mozilla 68 27
+msie9.0 1 1
+chrome51.0.2704.103 3 3
+chrome37.0.2062.120 12 12
+msie7.0 4 2
+chrome26.0.1410.43 1 0
+chrome48.0.2564.116 1 1
+chrome35.0.1916.153 1 1
+Unknown 1 1
+chrome10.0.648.0 1 1
+safari9.1.2 3 1
+blackberry 1 1
+chrome49.0.2623.87 33 17
+chrome52.0.2743.116 40 11
+chrome11.0.678.0 1 1
+safari10.0 1 1
+opera8.50 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-requests/2.7.0_CPython/2.7.10_Linux/3.2.0-4-amd64 20160930044029
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 61 63
+From1 1 1
+From2 1 2
+From3 12 12
+From4 15 103
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://pizza-tycoon.com 8 8
+http://burger-imperia.com 2 2
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 171 196225
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 20
+/index.php/admin 1 -
+/robots.txt 112 -
+/blog/wp-login.php 1 -
+/package.json 20 http://www.chunspage.com/
+/typo3/ 1 -
+/.git/config 1 -
+/administrator/index.php 2 -
+/license.txt 3 -
+/%7B%7Bweb.link%7D%7D 13 -
+/{{web.link}} 2 -
+/wp-login.php 4 -
+/wp-content/plugins/dzs-zoomsounds/admin/admin.js 1 -
+/blogs/wp-login.php 1 -
+/user/ 1 -
+/admin.php 3 -
+/admin/index.php 1 -
+/administrator/ 1 -
+/wordpress/wp-login.php 1 -
+/wp/wp-login.php 1 -
+/manager/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 39
+54.80.213.182 26 67 135333 20160925184714
+104.207.208.98 11 40 6158558 20160902104535
+192.154.105.186 4 8 4196 20160914141356
+69.58.178.57 3 3 4837 20160904192053
+178.238.235.184 3 3 4837 20160926013713
+192.154.104.146 2 4 2098 20160917072008
+104.250.158.10 2 4 2098 20160907065410
+192.154.106.146 2 4 2098 20160907154348
+192.154.105.106 2 4 2098 20160917145322
+38.100.21.78 2 4 3364 20160910162536
+192.154.105.250 2 4 2098 20160915161702
+149.202.98.160 2 2 1334 20160911042259
+192.154.106.242 2 4 2098 20160913075316
+195.154.146.225 2 2 1334 20160909065041
+113.35.251.98 2 2 2299 20160923103817
+62.210.80.20 1 1 667 20160917194547
+163.172.164.165 1 1 667 20160902205257
+87.216.168.131 1 1 667 20160905231031
+65.19.167.130 1 1 667 20160904124220
+185.129.148.216 1 1 0 20160930044029
+46.166.190.209 1 1 667 20160904130241
+192.154.107.18 1 1 667 20160916071246
+104.219.54.175 1 1 667 20160927213612
+75.143.44.49 1 3 1431 20160910072505
+190.147.83.183 1 1 667 20160925065115
+45.79.85.112 1 1 667 20160905011810
+95.65.30.156 1 1 667 20160913064058
+93.115.95.204 1 1 667 20160917182115
+176.31.7.241 1 1 667 20160903194451
+130.215.12.54 1 1 667 20160924091150
+94.242.246.23 1 1 667 20160909181809
+51.255.202.66 1 1 667 20160903120844
+109.86.72.191 1 1 1632 20160902022627
+185.129.62.63 1 1 667 20160905210837
+49.32.36.200 0 1 34544 
+80.82.64.102 1 1 1632 20160928003250
+138.201.16.71 1 1 1632 20160930032922
+94.23.168.141 1 1 667 20160906003200
+198.167.223.38 1 1 667 20160902114034
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20160902 14 43 6161524 4
+20160903 2 2 1334 2
+20160904 5 5 6171 3
+20160905 4 4 2668 4
+20160906 2 3 35878 2
+20160907 4 8 4196 2
+20160909 2 2 1334 2
+20160910 3 7 4795 2
+20160911 1 1 667 1
+20160912 2 4 2098 1
+20160913 3 5 2765 2
+20160914 2 4 2098 1
+20160915 2 4 2098 1
+20160916 1 1 667 1
+20160917 6 10 5530 4
+20160923 2 2 2299 1
+20160924 1 1 667 1
+20160925 27 68 136000 2
+20160926 3 3 4837 1
+20160927 1 1 667 1
+20160928 1 1 1632 1
+20160930 2 2 1632 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+2mn-5mn 1
+0s-30s 40
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 52 42702 40 37
+/aboutMe/ 5 6023 1 2
+/webs/AngularJSProject/calendar/views/day.html 2 402 0 0
+/webs/AngularJSProject/calendar/ 2 716 0 0
+/webs/Animation/bootstripSite/ 2 4708 0 0
+/webs/JQuaryProject/weather/ 2 974 0 0
+/webs/JQuaryProject/speakEasy/ 2 1104 0 0
+/webs/JQuaryProject/weather/pages/home.html 2 376 0 0
+/webs/AngularJSProject/calendar/views/event.html 1 157 0 1
+/webs/Animation/addColor/ 1 9668 0 0
+/webs/JQuaryProject/listEasy/ 1 517 0 0
+/webs/JQuaryProject/MilfordSchool/ 1 516 0 0
+/webs/JQuaryProject/feedster/ 1 638 0 0
+/webs/JQuaryProject/pocketbook/ 1 592 0 0
+/webs/JQuaryProject/weather/directives/weatherDetail.html 1 175 0 0
+/webs/AngularJSProject/BoltNetwork2/js/directives/programListing.html 1 276 0 0
+/webs/AngularJSProject/BoltNetwork2/ 1 588 0 0
+/webs/JQuaryProject/gameBoard/ 1 872 0 0
+/webs/JQuaryProject/weather/pages/forecast.html 1 296 0 0
+/webs/JQuaryProject/moveGear/ 1 870 0 0
+/webs/JQuaryProject/MadisonSquareMarket/ 1 698 0 1
+/webs/AngularJSProject/reader/views/bookshelf.html 1 176 0 0
+/webs/JQuaryProject/forecast/ 1 790 0 0
+/webs/AngularJSProject/outbox2/ 1 416 0 0
+/webs/AngularJSProject/outbox2/views/home.html 1 157 0 0
+/webs/AngularJSProject/reader/ 1 340 0 0
+/webs/JQuaryProject/bonsai/ 1 764 0 0
+/webs/JQuaryProject/ArmandoPerez/ 1 560 0 0
+/webs/JQuaryProject/move/ 1 728 0 0
+END_SIDER

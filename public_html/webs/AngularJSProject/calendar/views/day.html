@@ -1,0 +1,9 @@
+<h2 class="date">{{info.date | date : 'EEEE m/dd'}}  </h2>
+
+
+<div class="event" ng-repeat="event in info.events">
+    <a href="#/{{$index}}">
+        <h3 class="name"> {{event.name}} </h3>
+        <p><span class="from"> {{event.from | date : 'h:mm a'}} </span> - <span class="to"> {{event.to | date : 'h:mm a'}} </span></p>
+    </a>
+</div>
